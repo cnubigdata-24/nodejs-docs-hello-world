@@ -55,7 +55,7 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("Hello World! New Version 1.2 is now available. !!");
+    return res.send("Hello World! New Version 1.3 is now available. !!");
 })
 
 app.get('/api', function (req, res) {
